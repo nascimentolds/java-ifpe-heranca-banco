@@ -1,8 +1,8 @@
 package ifpe.ads;
 
 public class ContaBancaria {
-    private String nomeCliente;
-    private int numConta;
+    private final String nomeCliente;
+    private final int numConta;
     protected double saldo;
 
     public ContaBancaria(String nomeCliente, int numConta, double saldo) {
