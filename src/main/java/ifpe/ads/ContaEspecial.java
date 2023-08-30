@@ -1,7 +1,7 @@
 package ifpe.ads;
 
 public class ContaEspecial extends ContaBancaria {
-    private double limite;
+    private final double limite;
 
     public ContaEspecial(String nomeCliente, int numConta, double saldo, double limite) {
         super(nomeCliente, numConta, saldo);

@@ -26,7 +26,7 @@ public class Banco {
         int numConta;
         double valor;
         int tipoConta;
-        ArrayList<ContaBancaria> contas = new ArrayList<ContaBancaria>();
+        ArrayList<ContaBancaria> contas = new ArrayList<>();
 
         int opcao = 6;
 
@@ -126,7 +126,7 @@ public class Banco {
 
                     if (!encontrouContaPoupanca) {
                         System.out.println("-------------------------------");
-                        System.out.println("Nenhuma conta poupança encontrada!");
+                        System.out.println("Essa não é uma conta poupança!");
                         System.out.println("-------------------------------");
                     }
                 }

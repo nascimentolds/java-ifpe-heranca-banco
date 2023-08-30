@@ -33,15 +33,8 @@ public class ContaBancaria {
         return nomeCliente;
     }
 
-    public void setNomeCliente(String nomeCliente) {
-        this.nomeCliente = nomeCliente;
-    }
-
     public int getNumConta() {
         return numConta;
     }
 
-    public void setNumConta(int numConta) {
-        this.numConta = numConta;
-    }
 }
